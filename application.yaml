@@ -9,7 +9,7 @@ spec:
     repoURL: https://github.com/Yuvalmendel10/todo-argocd.git
     targetRevision: HEAD
   destination:
-    server: https://kubernetes.default.svc
+    server: https://127.0.0.1:51441
     namespace: todo
   syncPolicy:
     automated:
