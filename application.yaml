@@ -6,12 +6,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/myorg/my-app.git
-    targetRevision: main
-    path: manifests
+    repoURL: https://github.com/Yuvalmendel10/todo-argocd.git
+    targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
-    namespace: my-app-ns
+    namespace: argocd
   syncPolicy:
     automated:
       prune: true
