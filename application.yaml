@@ -2,12 +2,12 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: my-app
-  namespace: default
+  namespace: argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/Yuvalmendel10/todo-argocd.git
-    targetRevision: main
+    targetRevision: HEAD
     path: app
   destination:
     server: https://kubernetes.default.svc
