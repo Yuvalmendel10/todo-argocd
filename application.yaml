@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/Yuvalmendel10/todo-argocd.git
-    targetRevision: HEAD
+    targetRevision: main
     path: application.yaml
   destination:
     server: https://kubernetes.default.svc
