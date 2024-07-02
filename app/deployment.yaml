@@ -18,7 +18,7 @@ spec:
         app: todo
     spec:
       containers:
-        - image: yuvalmendel10/todo:latest
+        - image: yuvalmendel10/todo:41
           name: todo
           resources: {}
 status: {}
